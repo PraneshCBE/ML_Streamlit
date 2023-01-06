@@ -2,7 +2,7 @@ matplotlib
 catboost
 xgboost
 lazypredict
-sklearn
+scikit-learn
 seaborn
 pandas
 pickle
