@@ -248,7 +248,7 @@ if choice=='Plots':
         st.success(f"Correlation between {option_f1} and {option_f2} is {df.corr()[option_f1][option_f2]}")
         fig, ax = plt.subplots()
 
-        sns.scatterplot(df[option_f1],df[option_f2])
+        plt.scatter(df[option_f1],df[option_f2])
         st.write(fig)
     st.subheader("Data Visualization")
     option_feature = st.selectbox("Enter feature for visualization",features)
