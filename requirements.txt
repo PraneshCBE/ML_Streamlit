@@ -1,4 +1,3 @@
---upgrade pip
 matplotlib
 catboost
 xgboost
@@ -6,6 +5,5 @@ lazypredict
 scikit-learn
 seaborn
 pandas
-pickle
 numpy
 streamlit_lottie
